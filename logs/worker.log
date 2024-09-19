@@ -1,0 +1,3008 @@
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+Context: {"exception":{"errorInfo":null,"connectionName":"mysql"}}
+
+  at /var/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:140
+    136▕             }
+    137▕             if (!\is_resource($stream)) {
+    138▕                 $this->stream = null;
+    139▕ 
+  ➜ 140▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    141▕             }
+    142▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    143▕             $this->stream = $stream;
+    144▕         }
+
+      [2m+12 vendor frames [22m
+
+  13  /var/www/artisan:13
+      Illuminate\Foundation\Application::handleCommand(Object(Symfony\Component\Console\Input\ArgvInput))
+
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
+Could not open input file: /var/www/artisan
